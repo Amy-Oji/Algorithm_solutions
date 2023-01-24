@@ -3,16 +3,16 @@ Repository for some algorithms I have solved
 
 They include solutions for:
 
-DeadFish
+#### DeadFish
 
-EventsHaveConflicts
+#### EventsHaveConflicts
 
-ReverseWord
+#### ReverseWord
 
-TwoSum
+#### TwoSum
 
-SwapPairs
+#### SwapPairs
 
-PrintOddNums
+#### PrintOddNums
 
-NotVerySecure
+#### NotVerySecure
