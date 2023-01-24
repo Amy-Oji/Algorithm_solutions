@@ -5,14 +5,18 @@ They include solutions for:
 
 #### [DeadFish](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/DeadFish.java)
 
-#### EventsHaveConflicts
+#### [EventsHaveConflicts](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/EventsHaveConflict.java)
 
-#### ReverseWord
+#### [SwapPairs](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/ListNode.java)
 
-#### TwoSum
+#### [NotVerySecure](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/NotVerySecure.java)
 
-#### SwapPairs
+#### [ReverseWord](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/ReserveWord.java)
 
-#### PrintOddNums
+#### [TwoSum](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/TwoSum.java)
 
-#### NotVerySecure
+#### [PrintOddNums](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/PrintOddNums.java)
+
+#### [SinglyLinkedList functions](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SinglyLinkedList.java)
+
+
