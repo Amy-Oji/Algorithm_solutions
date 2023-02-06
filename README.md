@@ -23,5 +23,5 @@ They include solutions for:
 
 #### [ReverseLinkedList](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SinglyLinkedList.java)
 
-### [MaxProfit](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/MaxProfit.java)
+#### [MaxProfit](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/MaxProfit.java)
 
