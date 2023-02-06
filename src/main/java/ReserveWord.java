@@ -2,7 +2,7 @@ public class ReserveWord {
 
     /**
      *
-     * lonk: https://leetcode.com/assessment/1/
+     * lonk: https://leetcode.com/problems/reverse-words-in-a-string-iii/
      * Given a string s, reverse the order of characters in each word within a sentence
      * while still preserving whitespace and initial word order.
      *
@@ -29,11 +29,9 @@ public class ReserveWord {
             result.append(sb.reverse().append(" "));
 
         }
-
         return result.toString().trim();
 
     }
-
     public static void main(String[] args) {
         System.out.println(reverseWords("lets play"));
     }

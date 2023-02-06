@@ -67,6 +67,27 @@ public class SinglyLinkedList {
         return temp.next;
     }
 
+//    https://leetcode.com/problems/reverse-linked-list/
+    /**
+     * From LeetCode
+     * Link: https://leetcode.com/problems/reverse-linked-list/
+     * **/
+    public SinglyLinkedList reverseLinkedList(SinglyLinkedList linkedList) {
+
+        Node previous = null;
+        Node current = linkedList.head;
+        Node next;
+        while (current != null) {
+            next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+        }
+       head = previous;
+        return linkedList;
+
+    }
+
 
     public  int calcSize(Node list3){
         int size = 0;
@@ -111,16 +132,13 @@ public class SinglyLinkedList {
 
     public static void main(String[] args) {
         SinglyLinkedList node = new SinglyLinkedList();
-        node.insertNode(3);
         node.insertNode(1);
-        node.insertNode(11);
-        node.insertNode(23);
-        node.insertNode(9);
+        node.insertNode(2);
+        node.insertNode(3);
+        node.insertNode(4);
         printList(node);
-
-        node.swapPairs(node.head);
+        node.reverseLinkedList(node);
         System.out.println();
-
         printList(node);
 
 
