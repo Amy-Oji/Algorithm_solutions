@@ -19,4 +19,9 @@ They include solutions for:
 
 #### [SinglyLinkedList functions](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SinglyLinkedList.java)
 
+#### [MajorityElement](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/MajorityElement.java)
+
+#### [ReverseLinkedList](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SinglyLinkedList.java)
+
+### [MaxProfit](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/MaxProfit.java)
 
