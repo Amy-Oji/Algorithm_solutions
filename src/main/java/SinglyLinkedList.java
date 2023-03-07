@@ -67,10 +67,9 @@ public class SinglyLinkedList {
         return temp.next;
     }
 
-//    https://leetcode.com/problems/reverse-linked-list/
     /**
      * From LeetCode
-     * Link: https://leetcode.com/problems/reverse-linked-list/
+     * Link: <a href="https://leetcode.com/problems/reverse-linked-list/">...</a>
      * **/
     public SinglyLinkedList reverseLinkedList(SinglyLinkedList linkedList) {
 
@@ -82,6 +81,11 @@ public class SinglyLinkedList {
             current.next = previous;
             previous = current;
             current = next;
+            if(previous.next != null){
+                System.out.println(previous.next.val);
+                System.out.println(current.next.val);
+
+            }
         }
        head = previous;
         return linkedList;
@@ -115,6 +119,59 @@ public class SinglyLinkedList {
         }
     }
 
+    /**
+     * From LeetCode.
+     * Link: <a href="https://leetcode.com/problems/swapping-nodes-in-a-linked-list/">...</a>
+     *
+     * You are given the head of a linked list, and an integer k.
+     *
+     * Return the head of the linked list after swapping the values of the kth node from the beginning
+     * and the kth node from the end (the list is 1-indexed).
+     *
+     * Example 1:
+     * Input: head = [1,2,3,4,5], k = 2
+     * Output: [1,4,3,2,5]
+     *
+     * Example 2:
+     * Input: head = [7,9,6,6,7,8,3,0,9,5], k = 5
+     * Output: [7,9,6,6,8,7,3,0,9,5]
+     * **/
+    public static SinglyLinkedList swapNodesWithIndex(SinglyLinkedList head, int k) {
+
+        int len = 0;
+        Node current = head.head;
+
+        // Calculate length of linked list
+        while (current != null) {
+            len++;
+            current = current.next;
+        }
+
+        // If k is greater than length of list, return head
+        if (len < k) return head;
+
+        Node first = head.head;
+
+        // Traverse to kth node from beginning
+        for (int i = 1; i < k; i++) {
+            first = first.next;
+        }
+
+        Node second = head.head;
+
+        // Traverse to kth node from end
+        for (int i = 1; i <= len - k; i++) {
+            second = second.next;
+        }
+
+        // Swap values of the two nodes
+        int temp = first.val;
+        first.val = second.val;
+        second.val = temp;
+
+        return head;
+    }
+
     public static void printList(SinglyLinkedList list) {
         Node currNode = list.head;
 
@@ -132,12 +189,19 @@ public class SinglyLinkedList {
 
     public static void main(String[] args) {
         SinglyLinkedList node = new SinglyLinkedList();
-        node.insertNode(1);
-        node.insertNode(2);
+        node.insertNode(7);
+        node.insertNode(9);
+        node.insertNode(6);
+        node.insertNode(6);
+        node.insertNode(7);
+        node.insertNode(8);
         node.insertNode(3);
-        node.insertNode(4);
+        node.insertNode(0);
+        node.insertNode(9);
+        node.insertNode(5);
+
         printList(node);
-        node.reverseLinkedList(node);
+        swapNodesWithIndex(node, 5);
         System.out.println();
         printList(node);
 
