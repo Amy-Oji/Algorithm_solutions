@@ -81,27 +81,21 @@ public class SinglyLinkedList {
             current.next = previous;
             previous = current;
             current = next;
-            if(previous.next != null){
-                System.out.println(previous.next.val);
-                System.out.println(current.next.val);
-
-            }
         }
-       head = previous;
+        head = previous;
         return linkedList;
-
     }
 
 
-    public  int calcSize(Node list3){
+    public  int calcSize(Node head){
         int size = 0;
-        Node node = list3;
+        Node node = head;
         // traverse to the last node each time incrementing the size
         while(node!=null){
             size++;
             node = node.next;
         }
-        System.out.print("The size of the linkedList is: ");
+        System.out.print("The size of the linkedList is: " + size);
         return size;
     }
 
@@ -123,23 +117,23 @@ public class SinglyLinkedList {
      * From LeetCode.
      * Link: <a href="https://leetcode.com/problems/swapping-nodes-in-a-linked-list/">...</a>
      *
-     * You are given the head of a linked list, and an integer k.
+     * You are given the list of a linked list, and an integer k.
      *
-     * Return the head of the linked list after swapping the values of the kth node from the beginning
+     * Return the list of the linked list after swapping the values of the kth node from the beginning
      * and the kth node from the end (the list is 1-indexed).
      *
      * Example 1:
-     * Input: head = [1,2,3,4,5], k = 2
+     * Input: list = [1,2,3,4,5], k = 2
      * Output: [1,4,3,2,5]
      *
      * Example 2:
-     * Input: head = [7,9,6,6,7,8,3,0,9,5], k = 5
+     * Input: list = [7,9,6,6,7,8,3,0,9,5], k = 5
      * Output: [7,9,6,6,8,7,3,0,9,5]
      * **/
-    public static SinglyLinkedList swapNodesWithIndex(SinglyLinkedList head, int k) {
+    public static SinglyLinkedList swapNodesWithIndex(SinglyLinkedList list, int k) {
 
         int len = 0;
-        Node current = head.head;
+        Node current = list.head;
 
         // Calculate length of linked list
         while (current != null) {
@@ -147,17 +141,17 @@ public class SinglyLinkedList {
             current = current.next;
         }
 
-        // If k is greater than length of list, return head
-        if (len < k) return head;
+        // If k is greater than length of list, return list
+        if (len < k) return list;
 
-        Node first = head.head;
+        Node first = list.head;
 
         // Traverse to kth node from beginning
         for (int i = 1; i < k; i++) {
             first = first.next;
         }
 
-        Node second = head.head;
+        Node second = list.head;
 
         // Traverse to kth node from end
         for (int i = 1; i <= len - k; i++) {
@@ -169,7 +163,7 @@ public class SinglyLinkedList {
         first.val = second.val;
         second.val = temp;
 
-        return head;
+        return list;
     }
 
     public static void printList(SinglyLinkedList list) {
@@ -187,25 +181,88 @@ public class SinglyLinkedList {
         }
     }
 
+    public SinglyLinkedList insertNodeAtHead(SinglyLinkedList list, int data) {
+        Node newNode = new Node(data);
+//        Node head = list.head;
+        if(list.head == null){
+            list.head = newNode;
+        }else{
+            Node currentNode = list.head;
+            list.head = newNode;
+            list.head.next = currentNode;
+        }
+        return list;
+    }
+    /**
+     * From Hackeranck
+     * Link : https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign
+     *
+     * Description:
+     * Given the pointer to the head node of a linked list and an integer to insert at a certain position,
+     * create a new node with the given integer as its  data attribute, insert this node at the desired position and return the head node.
+     *
+     * A position of 0 indicates head, a position of 1 indicates one node away from the head and so on.
+     * The head pointer given may be null meaning that the initial list is empty.
+     *
+     *
+     * Example
+     * head refers to the first node in the list: 1 -> 2 -> 3
+     * data = 4
+     * position = 2
+     * Insert a node at position 2 with 4. The new list is 1 -> 2 -> 4 -> 3
+     *
+     *
+     * insertNodeAtPosition has the following parameters:
+     *
+     * head: a SinglyLinkedListNode pointer to the head of the list
+     * data: an integer value to insert as data in your new node
+     * position: an integer position to insert the new node, zero based indexing
+     * Returns
+     *
+     * SinglyLinkedListNode pointer: a reference to the head of the revised list
+     * **/
+    public void insertAtPosition(int data, int position) {
+        Node newNode = new Node(data);
+        if (position == 0) {
+            newNode.next = head;
+            head = newNode;
+            return;
+        }
+        Node current = head;
+        Node previous = null;
+        int index = 0;
+        while (current != null && index != position) {
+            previous = current;
+            current = current.next;
+            index++;
+        }
+        if (index == position) {
+            previous.next = newNode;
+            newNode.next = current;
+        }
+    }
+
+
     public static void main(String[] args) {
-        SinglyLinkedList node = new SinglyLinkedList();
-        node.insertNode(7);
-        node.insertNode(9);
-        node.insertNode(6);
-        node.insertNode(6);
-        node.insertNode(7);
-        node.insertNode(8);
-        node.insertNode(3);
-        node.insertNode(0);
-        node.insertNode(9);
-        node.insertNode(5);
+        SinglyLinkedList list = new SinglyLinkedList();
+        list.insertNode( 1);
+        list.insertNode( 2);
+        list.insertNode( 3);
+        list.insertNode( 4);
+        list.insertNode( 5);
 
-        printList(node);
-        swapNodesWithIndex(node, 5);
+        printList(list);
+
         System.out.println();
-        printList(node);
 
+        list.insertAtPosition(18, 2);
+        list.insertNodeAtHead(list, 0);
+        list.swapPairs(list.head);
+        list.reverseLinkedList(list);
+        swapNodesWithIndex(list, 3);
+        list.calcSize(list.head);
 
-
+        System.out.println();
+        printList(list);
     }
 }
