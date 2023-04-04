@@ -1,5 +1,5 @@
 # Algorithm_solutions
-Repository for some algorithms I have solved 
+Repository for my solutions to some algorithms tests I have seen or taken
 
 They include solutions for:
 
