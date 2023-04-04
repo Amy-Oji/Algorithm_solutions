@@ -25,5 +25,7 @@ They include solutions for:
 
 #### [MaxProfit](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/MaxProfit.java)
 
-#### [SwapNodesWithIndex](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SinglyLinkedList.java)
+#### [Linkedlist -> SwapNodesWithIndex](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SinglyLinkedList.java)
+
+#### [Linkedlist -> insertAtPosition](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SinglyLinkedList.java)
 
