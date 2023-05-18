@@ -24,7 +24,6 @@ public class SortedSquares {
                 .map(num -> num*num)
                 .sorted()
                 .toArray();
-
     }
 
     public static void main(String[] args) {

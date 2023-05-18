@@ -31,4 +31,6 @@ They include solutions for:
 
 #### [OrderAgnosticBinarySearch](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/OrderAgnosticBS.java)
 
-### [SortedSquares](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SortedSquares)
+#### [SortedSquares](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SortedSquares)
+
+#### [CustomSortString](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/CustomSortString)
