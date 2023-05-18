@@ -34,3 +34,5 @@ They include solutions for:
 #### [SortedSquares](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SortedSquares)
 
 #### [CustomSortString](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/CustomSortString)
+
+#### [LongestSubstringWithoutDuplication](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/LongestSubstringWithoutDuplication)
