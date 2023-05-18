@@ -29,3 +29,6 @@ They include solutions for:
 
 #### [Linkedlist -> insertAtPosition](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SinglyLinkedList.java)
 
+#### [OrderAgnosticBinarySearch](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/OrderAgnosticBS.java)
+
+### [SortedSquares](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SortedSquares)
