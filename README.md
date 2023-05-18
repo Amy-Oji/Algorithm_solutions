@@ -36,3 +36,5 @@ They include solutions for:
 #### [CustomSortString](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/CustomSortString)
 
 #### [LongestSubstringWithoutDuplication](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/LongestSubstringWithoutDuplication)
+
+#### [HasUniqueChars](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/HasUniqueChars)
