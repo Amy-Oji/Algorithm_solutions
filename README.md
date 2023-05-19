@@ -31,12 +31,13 @@ They include solutions for:
 
 #### [OrderAgnosticBinarySearch](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/OrderAgnosticBS.java)
 
-#### [SortedSquares](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SortedSquares)
+#### [SortedSquares](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SortedSquares.java)
 
-#### [CustomSortString](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/CustomSortString)
+#### [CustomSortString](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/CustomSortString.java)
 
-#### [LongestSubstringWithoutDuplication](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/LongestSubstringWithoutDuplication)
+#### [LongestSubstringWithoutDuplication](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/LongestSubstringWithoutDuplication.java)
 
-#### [HasUniqueChars](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/HasUniqueChars)
+#### [HasUniqueChars](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/HasUniqueChars.java)
 
-#### [SearchRange](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SearchRange)
+#### [SearchRange](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SearchRange.java)
+
