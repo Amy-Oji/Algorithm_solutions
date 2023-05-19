@@ -38,3 +38,5 @@ They include solutions for:
 #### [LongestSubstringWithoutDuplication](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/LongestSubstringWithoutDuplication)
 
 #### [HasUniqueChars](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/HasUniqueChars)
+
+#### [SearchRange](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SearchRange)
