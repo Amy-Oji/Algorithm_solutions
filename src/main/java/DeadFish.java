@@ -5,10 +5,6 @@ import java.util.List;
 import java.util.Map;
 
 public class DeadFish {
-    public Map<String, Integer> meiii (String name) {
-        return null;
-    }
-
     /**
      * algorithm on codewars
      * link: <a href="https://www.codewars.com/kata/51e0007c1f9378fa810002a9/train/java">Click here</a>
