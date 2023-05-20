@@ -50,7 +50,7 @@ public class EventsHaveConflict {
         2. compare if the time intersect and return the applicable boolean value
         */
             DateFormat formatter = new SimpleDateFormat("HH:mm");
-            Date event1Start = formatter.parse(event1[1]);
+            Date event1Start = formatter.parse(event1[0]);
             Date event1End = formatter.parse(event1[1]);
             Date event2Start = formatter.parse(event2[0]);
             Date event2End = formatter.parse(event2[1]);

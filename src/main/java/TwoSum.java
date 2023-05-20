@@ -15,8 +15,6 @@ public class TwoSum {
      *
      * You can return the answer in any order.
      *
-     *
-     *
      * Example 1:
      *
      * Input: nums = [2,7,11,15], target = 9
@@ -40,7 +38,7 @@ public class TwoSum {
         // number and it's corresponding index
         HashMap<Integer, Integer> map = new HashMap<>();
 
-        for (int index = 0; index < nums.length; index++) {
+        for (int i = 0; i < nums.length; i++) {  //[3,2,4],
             /*
             * using the array values to check the map if it contains it as key.
             * Then later subtract the values from target and store the result as the map keys
@@ -50,19 +48,17 @@ public class TwoSum {
             * and the program would skip to the else statement
             * and store the indexes of those values in our answer array
              * */
-            if (!map.containsKey(nums[index])) {
-                map.put(target - nums[index], index);
+            if (!map.containsKey(nums[i])) {
+                map.put(target - nums[i], i);
 
             } else {
-                ans[1] = index;
-                ans[0] = map.get(nums[index]);
+                ans[1] = i;
+                ans[0] = map.get(nums[i]);
                 break;
         }
     }
         return ans;
 }
-
-
 
 //solution 2
     public static int[] twoSum(int[] nums, int target) {
