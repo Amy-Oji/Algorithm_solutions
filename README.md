@@ -41,3 +41,4 @@ They include solutions for:
 
 #### [SearchRange](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SearchRange.java)
 
+#### [IsPalindrome](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/IsPalindrome.java)
