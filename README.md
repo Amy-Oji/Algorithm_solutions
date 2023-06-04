@@ -44,4 +44,6 @@ They include solutions for:
 #### [IsPalindrome](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/IsPalindrome.java)
 
 #### [addTwoNumbers -> LinkedList Algorithm](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/LinkedListNode.java)
+
+### [IsValidParentheses](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/IsValidParentheses.java)
 )
