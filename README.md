@@ -45,4 +45,6 @@ They include solutions for:
 
 #### [addTwoNumbers -> LinkedList Algorithm](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/LinkedListNode.java)
 
-### [IsValidParentheses](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/IsValidParentheses.java)
+#### [IsValidParentheses](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/IsValidParentheses.java)
+
+#### [RomanToInt](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/RomanToInt.java))
