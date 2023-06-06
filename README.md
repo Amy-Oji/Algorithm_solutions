@@ -47,4 +47,6 @@ They include solutions for:
 
 #### [IsValidParentheses](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/IsValidParentheses.java)
 
-#### [RomanToInt](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/RomanToInt.java))
+#### [RomanToInt](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/RomanToInt.java)
+
+#### [FindMedianSortedArrays](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/RomanToInt.java)
