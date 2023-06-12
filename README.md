@@ -41,7 +41,7 @@ They include solutions for:
 
 #### [SearchRange](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/SearchRange.java)
 
-#### [IsPalindrome](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/IsPalindrome.java)
+#### [IsPalindromeInt](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/IsPalindromeInt.java)
 
 #### [addTwoNumbers -> LinkedList Algorithm](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/LinkedListNode.java)
 

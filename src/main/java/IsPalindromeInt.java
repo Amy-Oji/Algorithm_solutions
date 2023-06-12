@@ -1,4 +1,4 @@
-public class IsPalindrome {
+public class IsPalindromeInt {
     /**
      * From LeetCode: https://leetcode.com/problems/palindrome-number/
      **
