@@ -27,14 +27,31 @@ class Rob {
      * Total amount you can rob = 2 + 9 + 1 = 12.
      **/
     public static int rob(int[] nums) {
-        int count = 0;
-        int i = 0;
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
 
-       while(i < nums.length){
-           count += nums[i];
-           i += 2;
-       } 
-       return count;
+        int n = nums.length;
+
+        if (n == 1) {
+            return nums[0];
+        }
+
+        // Create an array to store the maximum stolen money up to each house
+        int[] dp = new int[n];
+
+        // Initialize the first two values
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0], nums[1]);
+
+        // Iterate through the rest of the houses
+        for (int i = 2; i < n; i++) {
+            // Choose whether to rob the current house or the previous house
+            dp[i] = Math.max(nums[i] + dp[i - 2], dp[i - 1]);
+        }
+
+        // Return the maximum stolen money from the last house
+        return dp[n - 1];
     }
 
     public static void main(String[] args) {
