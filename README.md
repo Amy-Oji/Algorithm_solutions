@@ -33,6 +33,8 @@ They include solutions for:
 
 #### [LongestCommonPrefix](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/LongestCommonPrefix.java)
 
+#### [LongestPalindrome](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/LongestPalindrome.java)
+
 #### [LongestSubstringWithoutDuplication](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/LongestSubstringWithoutDuplication.java)
 
 #### [MajorityElement](https://github.com/Amy-Oji/Algorithm_solutions/blob/main/src/main/java/MajorityElement.java)
