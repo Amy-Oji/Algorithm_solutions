@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class HasUniqueChars {
 
     /**
@@ -28,6 +30,10 @@ public class HasUniqueChars {
 // solution 2
     public static boolean hasUniqueCharacters2(String s) {
         return s.chars().distinct().count() == s.length();
+    }
+
+    public boolean containsDuplicate(int[] nums) {
+        return Arrays.stream(nums).distinct().count() == nums.length;
     }
 
     public static void main(String[] args) {
