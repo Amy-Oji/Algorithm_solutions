@@ -1,4 +1,8 @@
 public class MultiplyStrings {
+
+    /**
+     * From LeetCode: https://leetcode.com/problems/multiply-strings/
+     * **/
     public String multiply(String num1, String num2) {
         int n = num1.length();
         int m = num2.length();
